@@ -24,9 +24,11 @@ if tw == 51 and th == 19 then
                 input = ""
                 print("Beginning Monitor (2x2) setup...")
                 monitorSetup("2x2")
+                break
             elseif input == "N" then
                 input = ""
                 computerSetup()
+                break
             end
         end
     elseif mw == 29 and mh == 12 then
@@ -38,9 +40,11 @@ if tw == 51 and th == 19 then
                 input = ""
                 print("Beginning Monitor (3x2) setup...")
                 monitorSetup("3x2")
+                break
             elseif input == "N" then
                 input = ""
                 computerSetup()
+                break
             end
         end
     else
