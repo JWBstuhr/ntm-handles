@@ -22,6 +22,7 @@ if tw == 51 and th == 19 then
             input = read()
             if input == "Y" then
                 input = ""
+                print("Beginning Monitor (2x2) setup...")
                 monitorSetup("2x2")
             elseif input == "N" then
                 input = ""
@@ -35,6 +36,7 @@ if tw == 51 and th == 19 then
             input = read()
             if input == "Y" then
                 input = ""
+                print("Beginning Monitor (3x2) setup...")
                 monitorSetup("3x2")
             elseif input == "N" then
                 input = ""
